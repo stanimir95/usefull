@@ -11,3 +11,6 @@ https://postmarkapp.com/blog/performance-testing-at-postmark
 
 # docker nginx reverse-proxy with ssl
 https://dev.to/domysee/setting-up-a-reverse-proxy-with-nginx-and-docker-compose-29jg
+
+# TCP and UDP connections
+nc
