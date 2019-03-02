@@ -2,6 +2,8 @@
 # find most recent files 
 find /path/to/dir -type f -exec stat -c "%y %n" {} + | sort -r | head -n 100 
 
+# Complete sys info
+inxi -Fxz
 # check and repair a Linux filesystem
 
 fsck
