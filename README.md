@@ -16,3 +16,6 @@ https://dev.to/domysee/setting-up-a-reverse-proxy-with-nginx-and-docker-compose-
 
 # TCP and UDP connections
 nc
+
+# Attack a volume to an already running container
+https://jpetazzo.github.io/2015/01/13/docker-mount-dynamic-volumes/
