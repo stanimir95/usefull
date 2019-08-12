@@ -1,5 +1,8 @@
 # usefull
 
+# Task 9: Recover data from a broken LVM configuration
+vgcfgrestore -l vg_1
+
 # Create Linux USB
 cat debian.iso > /dev/sdX; sync
 
