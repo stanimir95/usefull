@@ -1,5 +1,21 @@
 # usefull
 
+# Connect to remote with Visual Studio Code 
+
+Open your terminal application, and run the following command:
+ssh cloud_user@PUBLIC_IP_ADDRESS
+Enter yes at the prompt.
+Enter your cloud_user password at the prompt.
+Run exit to close the connection.
+Run the following command:
+ssh-copy-id cloud_user@PUBLIC_IP
+Enter your password at the prompt.
+Open Visual Studio Code.
+In the seach bar at the top, enter cloud_user@PUBLIC_IP.
+Once you've connected, click the square Extensions icon in the left sidebar.
+Under Local - Installed, scroll down to Python and click Install on SSH.
+Click Reload to make the changes take effect.
+
 # Task 9: Recover data from a broken LVM configuration
 vgcfgrestore -l vg_1
 
