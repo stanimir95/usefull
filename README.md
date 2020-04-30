@@ -1,5 +1,8 @@
 # usefull
 
+# Test sub-domains if only IP available
+curl <IP> -H 'Host: subdomain.domain.com'
+
 # Connect to remote with Visual Studio Code 
 
 Open your terminal application, and run the following command:
