@@ -1,5 +1,12 @@
 # usefull
 
+# Bash has an "until" loop
+until [CONDITION]
+do
+  [COMMANDS]
+done
+
+
 # Test sub-domains if only IP available
 curl <IP> -H 'Host: subdomain.domain.com'
 
