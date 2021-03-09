@@ -1,7 +1,7 @@
 # usefull
 
 # Kubeadm join command
-sudo kubeadm init --apiserver-advertise-address=192.168.101.10 --pod-network-cidr=10.0.0.0/16 --ignore-preflight-errors=all
+sudo kubeadm init --apiserver-advertise-address=192.168.101.10 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors=all
 
 
 
