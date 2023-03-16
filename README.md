@@ -62,3 +62,8 @@ nc
 
 # Attack a volume to an already running container
 https://jpetazzo.github.io/2015/01/13/docker-mount-dynamic-volumes/
+
+# Merge main into my branch
+# From my branch
+git fetch
+git merge origin main
