@@ -1,5 +1,15 @@
 # usefull
 
+# Golang read to buffer from unix socket
+	buffer := make([]byte, 0, 4096)
+	bytesRead, err := connection.Read(buffer[:cap(buffer)])
+	buffer = buffer[:bytesRead]
+	if err != nil {
+		fmt.Println("Error reading data:", err.Error())
+		return
+	}
+	fmt.Printf("data: %v", string(buffer))
+
 # Kubeadm join command
 sudo kubeadm init --apiserver-advertise-address=192.168.101.10 --pod-network-cidr=10.244.0.0/16 --ignore-preflight-errors=all
 
